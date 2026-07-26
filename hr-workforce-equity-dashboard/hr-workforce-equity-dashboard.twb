@@ -1,0 +1,1076 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0818.1050                               -->
+<workbook original-version='18.1' source-build='2025.2.2 (20252.25.0818.1050)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='HRDataset' inline='true' name='federated.0ycflib1qejc9d14oa7km0x1ujok' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HRDataset' name='textscan.1d9d8xx1bkzxp41dqrgui0tp2nmh'>
+            <connection class='textscan' directory='C:/Users/POPOLY/OneDrive - MONCCNB/Ecole/2ièmeAnnee/DECI1017 - Vs data/Données' filename='HRDataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1d9d8xx1bkzxp41dqrgui0tp2nmh' name='HRDataset.csv' table='[HRDataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_CA'>
+            <column datatype='string' name='Employee_Name' ordinal='0' />
+            <column datatype='integer' name='EmpID' ordinal='1' />
+            <column datatype='integer' name='MarriedID' ordinal='2' />
+            <column datatype='integer' name='MaritalStatusID' ordinal='3' />
+            <column datatype='integer' name='GenderID' ordinal='4' />
+            <column datatype='integer' name='EmpStatusID' ordinal='5' />
+            <column datatype='integer' name='DeptID' ordinal='6' />
+            <column datatype='integer' name='PerfScoreID' ordinal='7' />
+            <column datatype='integer' name='FromDiversityJobFairID' ordinal='8' />
+            <column datatype='integer' name='Salary' ordinal='9' />
+            <column datatype='integer' name='Termd' ordinal='10' />
+            <column datatype='integer' name='PositionID' ordinal='11' />
+            <column datatype='string' name='Position' ordinal='12' />
+            <column datatype='string' name='State' ordinal='13' />
+            <column datatype='integer' name='Zip' ordinal='14' />
+            <column datatype='date' name='DOB' ordinal='15' />
+            <column datatype='string' name='Sex' ordinal='16' />
+            <column datatype='string' name='MaritalDesc' ordinal='17' />
+            <column datatype='string' name='CitizenDesc' ordinal='18' />
+            <column datatype='string' name='HispanicLatino' ordinal='19' />
+            <column datatype='string' name='RaceDesc' ordinal='20' />
+            <column datatype='date' name='DateofHire' ordinal='21' />
+            <column datatype='date' name='DateofTermination' ordinal='22' />
+            <column datatype='string' name='TermReason' ordinal='23' />
+            <column datatype='string' name='EmploymentStatus' ordinal='24' />
+            <column datatype='string' name='Department' ordinal='25' />
+            <column datatype='string' name='ManagerName' ordinal='26' />
+            <column datatype='integer' name='ManagerID' ordinal='27' />
+            <column datatype='string' name='RecruitmentSource' ordinal='28' />
+            <column datatype='string' name='PerformanceScore' ordinal='29' />
+            <column datatype='real' name='EngagementSurvey' ordinal='30' />
+            <column datatype='integer' name='EmpSatisfaction' ordinal='31' />
+            <column datatype='integer' name='SpecialProjectsCount' ordinal='32' />
+            <column datatype='date' name='LastPerformanceReview_Date' ordinal='33' />
+            <column datatype='integer' name='DaysLateLast30' ordinal='34' />
+            <column datatype='integer' name='Absences' ordinal='35' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_CA&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee_Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Employee_Name]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>Employee_Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmpID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EmpID]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>EmpID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MarriedID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MarriedID]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>MarriedID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaritalStatusID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MaritalStatusID]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>MaritalStatusID</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GenderID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GenderID]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>GenderID</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmpStatusID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EmpStatusID]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>EmpStatusID</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DeptID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DeptID]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>DeptID</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PerfScoreID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PerfScoreID]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>PerfScoreID</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FromDiversityJobFairID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FromDiversityJobFairID]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>FromDiversityJobFairID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Salary]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>Salary</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Termd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Termd]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>Termd</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PositionID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PositionID]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>PositionID</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Position</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Position]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>Position</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zip</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Zip]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>Zip</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOB</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[DOB]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>DOB</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sex]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>Sex</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaritalDesc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MaritalDesc]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>MaritalDesc</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CitizenDesc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CitizenDesc]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>CitizenDesc</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HispanicLatino</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HispanicLatino]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>HispanicLatino</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RaceDesc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RaceDesc]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>RaceDesc</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateofHire</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[DateofHire]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>DateofHire</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateofTermination</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[DateofTermination]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>DateofTermination</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TermReason</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TermReason]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>TermReason</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmploymentStatus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EmploymentStatus]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>EmploymentStatus</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ManagerName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ManagerName]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>ManagerName</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ManagerID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ManagerID]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>ManagerID</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RecruitmentSource</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RecruitmentSource]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>RecruitmentSource</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PerformanceScore</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PerformanceScore]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>PerformanceScore</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RCA' />
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EngagementSurvey</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EngagementSurvey]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>EngagementSurvey</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmpSatisfaction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EmpSatisfaction]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>EmpSatisfaction</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SpecialProjectsCount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SpecialProjectsCount]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>SpecialProjectsCount</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastPerformanceReview_Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[LastPerformanceReview_Date]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>LastPerformanceReview_Date</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DaysLateLast30</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DaysLateLast30]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>DaysLateLast30</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Absences</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Absences]</local-name>
+            <parent-name>[HRDataset.csv]</parent-name>
+            <remote-alias>Absences</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='nmber of years of service' datatype='integer' name='[Calculation_1169247121630162945]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEDIFF(&apos;year&apos;, [DateofHire], #2018-12-31#)' />
+      </column>
+      <column caption='Date de naissance' datatype='integer' name='[Calculation_1375568279481638912]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='2018 - year([DOB])' />
+      </column>
+      <column caption='Citizen Desc' datatype='string' name='[CitizenDesc]' role='dimension' type='nominal' />
+      <column caption='Dateof Hire' datatype='date' name='[DateofHire]' role='dimension' type='ordinal' />
+      <column caption='Dateof Termination' datatype='date' name='[DateofTermination]' role='dimension' type='ordinal' />
+      <column caption='Dept ID' datatype='integer' name='[DeptID]' role='dimension' type='ordinal' />
+      <column caption='Emp ID' datatype='integer' name='[EmpID]' role='dimension' type='ordinal' />
+      <column caption='Emp Satisfaction' datatype='integer' name='[EmpSatisfaction]' role='measure' type='quantitative' />
+      <column caption='Emp Status ID' datatype='integer' name='[EmpStatusID]' role='dimension' type='ordinal' />
+      <column caption='Employee Name' datatype='string' name='[Employee_Name]' role='dimension' type='nominal' />
+      <column caption='Employment Status' datatype='string' name='[EmploymentStatus]' role='dimension' type='nominal' />
+      <column caption='Engagement Survey' datatype='real' name='[EngagementSurvey]' role='measure' type='quantitative' />
+      <column caption='From Diversity Job Fair ID' datatype='integer' name='[FromDiversityJobFairID]' role='dimension' type='ordinal' />
+      <column caption='Gender ID' datatype='integer' name='[GenderID]' role='dimension' type='ordinal' />
+      <column caption='Hispanic Latino' datatype='string' name='[HispanicLatino]' role='dimension' type='nominal' />
+      <column caption='LastPerformanceReview Date' datatype='date' name='[LastPerformanceReview_Date]' role='dimension' type='ordinal' />
+      <column caption='Manager ID' datatype='integer' name='[ManagerID]' role='dimension' type='ordinal' />
+      <column caption='Manager Name' datatype='string' name='[ManagerName]' role='dimension' type='nominal' />
+      <column caption='Marital Desc' datatype='string' name='[MaritalDesc]' role='dimension' type='nominal' />
+      <column caption='Marital Status ID' datatype='integer' name='[MaritalStatusID]' role='dimension' type='ordinal' />
+      <column caption='Married ID' datatype='integer' name='[MarriedID]' role='dimension' type='ordinal' />
+      <column caption='Perf Score ID' datatype='integer' name='[PerfScoreID]' role='dimension' type='ordinal' />
+      <column caption='Performance Score' datatype='string' name='[PerformanceScore]' role='dimension' type='nominal' />
+      <column caption='Position ID' datatype='integer' name='[PositionID]' role='dimension' type='ordinal' />
+      <column caption='Race Desc' datatype='string' name='[RaceDesc]' role='dimension' type='nominal' />
+      <column caption='Recruitment Source' datatype='string' name='[RecruitmentSource]' role='dimension' type='nominal' />
+      <column caption='Special Projects Count' datatype='integer' name='[SpecialProjectsCount]' role='measure' type='quantitative' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Term Reason' datatype='string' name='[TermReason]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='HRDataset.csv' datatype='table' name='[__tableau_internal_object_id__].[HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Department Info'>
+          <field>[Department]</field>
+          <field>[DeptID]</field>
+        </drill-path>
+        <drill-path name='Emp Info'>
+          <field>[EmploymentStatus]</field>
+          <field>[EmpStatusID]</field>
+          <field>[EmpID]</field>
+          <field>[GenderID]</field>
+          <field>[Employee_Name]</field>
+          <field>[DOB]</field>
+          <field>[HispanicLatino]</field>
+        </drill-path>
+        <drill-path name='Manager Infos'>
+          <field>[ManagerID]</field>
+          <field>[ManagerName]</field>
+        </drill-path>
+      </drill-paths>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;CA&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='HRDataset.csv' id='HRDataset.csv_9FF4D1CBA3B24CE58451F417E40CDA8E'>
+            <properties context=''>
+              <relation connection='textscan.1d9d8xx1bkzxp41dqrgui0tp2nmh' name='HRDataset.csv' table='[HRDataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_CA'>
+                  <column datatype='string' name='Employee_Name' ordinal='0' />
+                  <column datatype='integer' name='EmpID' ordinal='1' />
+                  <column datatype='integer' name='MarriedID' ordinal='2' />
+                  <column datatype='integer' name='MaritalStatusID' ordinal='3' />
+                  <column datatype='integer' name='GenderID' ordinal='4' />
+                  <column datatype='integer' name='EmpStatusID' ordinal='5' />
+                  <column datatype='integer' name='DeptID' ordinal='6' />
+                  <column datatype='integer' name='PerfScoreID' ordinal='7' />
+                  <column datatype='integer' name='FromDiversityJobFairID' ordinal='8' />
+                  <column datatype='integer' name='Salary' ordinal='9' />
+                  <column datatype='integer' name='Termd' ordinal='10' />
+                  <column datatype='integer' name='PositionID' ordinal='11' />
+                  <column datatype='string' name='Position' ordinal='12' />
+                  <column datatype='string' name='State' ordinal='13' />
+                  <column datatype='integer' name='Zip' ordinal='14' />
+                  <column datatype='date' name='DOB' ordinal='15' />
+                  <column datatype='string' name='Sex' ordinal='16' />
+                  <column datatype='string' name='MaritalDesc' ordinal='17' />
+                  <column datatype='string' name='CitizenDesc' ordinal='18' />
+                  <column datatype='string' name='HispanicLatino' ordinal='19' />
+                  <column datatype='string' name='RaceDesc' ordinal='20' />
+                  <column datatype='date' name='DateofHire' ordinal='21' />
+                  <column datatype='date' name='DateofTermination' ordinal='22' />
+                  <column datatype='string' name='TermReason' ordinal='23' />
+                  <column datatype='string' name='EmploymentStatus' ordinal='24' />
+                  <column datatype='string' name='Department' ordinal='25' />
+                  <column datatype='string' name='ManagerName' ordinal='26' />
+                  <column datatype='integer' name='ManagerID' ordinal='27' />
+                  <column datatype='string' name='RecruitmentSource' ordinal='28' />
+                  <column datatype='string' name='PerformanceScore' ordinal='29' />
+                  <column datatype='real' name='EngagementSurvey' ordinal='30' />
+                  <column datatype='integer' name='EmpSatisfaction' ordinal='31' />
+                  <column datatype='integer' name='SpecialProjectsCount' ordinal='32' />
+                  <column datatype='date' name='LastPerformanceReview_Date' ordinal='33' />
+                  <column datatype='integer' name='DaysLateLast30' ordinal='34' />
+                  <column datatype='integer' name='Absences' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Feuille 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HRDataset' name='federated.0ycflib1qejc9d14oa7km0x1ujok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ycflib1qejc9d14oa7km0x1ujok'>
+            <column caption='Dateof Hire' datatype='date' name='[DateofHire]' role='dimension' type='ordinal' />
+            <column-instance column='[DateofHire]' derivation='Year' name='[yr:DateofHire:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0ycflib1qejc9d14oa7km0x1ujok].[yr:DateofHire:ok]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{170E84E4-10FD-4499-9BE0-CA0850A26813}' />
+    </worksheet>
+    <worksheet name='Question2-1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HRDataset' name='federated.0ycflib1qejc9d14oa7km0x1ujok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ycflib1qejc9d14oa7km0x1ujok'>
+            <column caption='Date de naissance' datatype='integer' name='[Calculation_1375568279481638912]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='2018 - year([DOB])' />
+            </column>
+            <column datatype='date' name='[DOB]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1375568279481638912]' derivation='Avg' name='[avg:Calculation_1375568279481638912:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Salary]' derivation='Avg' name='[avg:Salary:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0ycflib1qejc9d14oa7km0x1ujok].[avg:Calculation_1375568279481638912:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0ycflib1qejc9d14oa7km0x1ujok].[avg:Salary:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.0ycflib1qejc9d14oa7km0x1ujok].[avg:Calculation_1375568279481638912:qk] + [federated.0ycflib1qejc9d14oa7km0x1ujok].[avg:Salary:qk])</cols>
+      </table>
+      <simple-id uuid='{50139568-ACB8-4DEB-89DE-5EE061E175BB}' />
+    </worksheet>
+    <worksheet name='Question2-2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HRDataset' name='federated.0ycflib1qejc9d14oa7km0x1ujok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ycflib1qejc9d14oa7km0x1ujok' />
+          <filter class='categorical' column='[federated.0ycflib1qejc9d14oa7km0x1ujok].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.0ycflib1qejc9d14oa7km0x1ujok].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0ycflib1qejc9d14oa7km0x1ujok].[:Measure Names]' value='216' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BDEE9039-6D17-404B-8BF2-0DFFAADC7D93}' />
+    </worksheet>
+    <worksheet name='age selon le genre'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HRDataset' name='federated.0ycflib1qejc9d14oa7km0x1ujok' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ycflib1qejc9d14oa7km0x1ujok'>
+            <column caption='Date de naissance' datatype='integer' name='[Calculation_1375568279481638912]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='2018 - year([DOB])' />
+            </column>
+            <column datatype='date' name='[DOB]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Sex]' role='dimension' type='nominal' />
+            <column-instance column='[Sex]' derivation='None' name='[none:Sex:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1375568279481638912]' derivation='Sum' name='[sum:Calculation_1375568279481638912:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.0ycflib1qejc9d14oa7km0x1ujok].[sum:Calculation_1375568279481638912:qk]</rows>
+        <cols>[federated.0ycflib1qejc9d14oa7km0x1ujok].[none:Sex:nk]</cols>
+      </table>
+      <simple-id uuid='{6A8BD411-0E89-495E-9188-D70027DE2F9E}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='age selon le genre'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C6CE779D-7E19-4288-8E9F-82FC8DD08069}' />
+    </window>
+    <window class='worksheet' name='Question2-1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CFE28068-F68F-45C0-98AC-B83D1C69C620}' />
+    </window>
+    <window class='worksheet' name='Question2-2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D7660EDD-E341-4537-A75F-10F02E993A79}' />
+    </window>
+    <window class='worksheet' name='Feuille 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1D8DBADC-103F-4679-B997-7C78A1775C54}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='87' name='Question2-1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAABXCAYAAABSv0r8AAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAFFklEQVR4nO3cXUhbZxzH8V8b3c5JGo3tWtTiW1VwSrv6cjNZobPiGGNrobC+ULEXMlp6
+      MRiyQi82kDHp2Ma834UD6aoXq26CJaybw8EYi9RONJoF1rUsRq2aF+LL4kl2UTdMji85nVmo
+      /98HvHl8ODwe+Z5zcjzHXdFoNAoioXanegFEqcQASDQGQKIxABKNAZBoDIBEYwAkWtpWExwO
+      x/+xDqKU2DIAAKipqUn2OsQJBoOwWq2pXsaOY3S/8hKIREvoDHDy2s1kr4MoJXgGINEYAInG
+      AEg0BkCiMQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCiMQASLaGnQXs/PJvsdYjD9wGSg+8D
+      EBmQ0BmAr0XSTsVXIlNkYWEBZrM51cvYcYzuV14CkWgMgERjACQaAyDRGECK8ANwchjdrwyA
+      RGMAJBoDINEYAInGAEg0BkCiJfQsUAwtgJFvPkf3gBuz2IeS42+i+fXDyDAlYXU7jP/Xr9Fz
+      dz5uNAuVp97AkcyULOnpFZ7GL191YuhAIy69vF//7Yc/4ovOHty7v4xnC1/AqQtNeCkvXTfP
+      YAAaxrtacTPShKufvIMMBDDy5XW0dqXj+vkysIHNzbl/wmLJVZytWDtqgrInVSt6CoXn4fz2
+      BjrvPIIty4fFDE0/Z24A7e0OHHm7Dc156Qg/tKO9vR0r11pwfG/sVGOXQP5B9I3Vovnc6hHf
+      lIHD55pRO9aHQf+T/0wyLMHrUVFQbIPNtvbLCoVHjoR5f7iB71CHlrb30ViVte6c8dt9UE5f
+      RsPqET89rwGXTyvouz2um2soAM3twmxVJYrW/sJMRaismoXLvU6JtMYkJv/MxgH92ZoMyK6/
+      giuvPo8s/dXMKg/crkJUV1piRi2V1Sh0ueGJm20ogJlpLw7m5OjGc3IOwjs9Y2RT8mhzeJS2
+      F5agDz6fD77gEnjISIZpTC3nIluJG1aykbs8hem4YcMfglU1fsuAoqqAz+iWhAlbUFASws+9
+      vQD+wuzvE3jgs6G68RLOVz/Hz0/bSVWh6geh6geNB6BpGhD363o8RptSyvBKU1nMkBYYQkfr
+      Z+jb/wFO5qdoXTtRRENEPwhNP2jsEkhVzfBMTunGpyY9MK+XF23KlFGN1048g3uj3lQvZQdR
+      oPo9mIw/JmuT8PhVxF+/GAog81ApVkadmIsZnYNzdAWlh3gj+0lEtAjSTLwA2j6FKC51wTkR
+      W4A24YSrtBiFcbON3QbNP4Z6kx23hkP/DoWGb8FuqscxnsI35R3sQr9zHuE1Y1pgCP2De1Bb
+      w1tD20dBTV0VRnrs8PzTgOaBvWcEVXU1ujPArmg0Gt1scw6HI/a/QoSG0dHagT/yK1GI+7j7
+      oAAX37uIo5aNt0GAFnBhoLsb/eNB7CsqR0ZgDL9NmfHiWy04U86dl5gZfN/+KeyrV4yRRT+C
+      sCJTfXwcP3qhDWcqAECDx/4xPrqzGxXlNvjGRhE58S5aGnJ1NxuMBwAACCPkCyGMdFhsFmx4
+      S5b0tCUEg0vQuO+STlsKIrikwaRYYd3gr43GnwUCAKTDYrP9h6UJZlJgtelvJdP2MylWbLWr
+      +TQoicYASDQGQKIxABKNAZBoDIBEYwAkGgMg0RgAicYASDQGQKIxABKNAZBoDIBEYwAkGgMg
+      0RgAicYASDQGQKIxABKNAZBoDIBEYwAkGgMg0RgAicYASDQGQKIxABKNAZBoDIBEYwAkGgMg
+      0RgAicYASLS/AeZ9UH6S+6GkAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='age selon le genre' width='192'>
+      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
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
