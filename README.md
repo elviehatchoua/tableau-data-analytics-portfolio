@@ -8,6 +8,7 @@ Portfolio de tableaux de bord interactifs réalisés avec **Tableau**, mettant e
 |---|---|
 | [Global Development Dashboard](./global-development-dashboard) | Analyse comparative du développement mondial (CO2, PIB, espérance de vie, IDH) pour 175 pays entre 1998 et 2018 |
 | [US Flights Performance Dashboard](./us-flights-performance-dashboard) | Nettoyage et analyse de ~8M de vols aériens américains (2010-2011) avec tableau de bord de KPI comparant les périodes année sur année |
+| [Retail Sales Performance Dashboard](./retail-sales-performance-dashboard) | Tableau de bord de ventes au détail conçu à partir de critères d'affaires client, avec comparaisons année sur année et filtres interactifs |
 
 ## Compétences démontrées
 
