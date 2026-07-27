@@ -10,6 +10,7 @@ Portfolio de tableaux de bord interactifs réalisés avec **Tableau**, mettant e
 | [US Flights Performance Dashboard](./us-flights-performance-dashboard) | Nettoyage et analyse de ~8M de vols aériens américains (2010-2011) avec tableau de bord de KPI comparant les périodes année sur année |
 | [Retail Sales Performance Dashboard](./retail-sales-performance-dashboard) | Tableau de bord de ventes au détail conçu à partir de critères d'affaires client, avec comparaisons année sur année et filtres interactifs |
 | [HR Workforce Equity Dashboard](./hr-workforce-equity-dashboard) | Tableau de bord RH analysant l'équité de genre : effectifs, salaire, ancienneté, satisfaction et diversité par département |
+| [Netflix Catalog Analytics Dashboard](./netflix-catalog-analytics-dashboard) | Projet final : analyse du catalogue Netflix (films/séries) à travers deux tableaux de bord — répartition, genres, pays, cotes et évolution annuelle |
 
 ## Compétences démontrées
 
